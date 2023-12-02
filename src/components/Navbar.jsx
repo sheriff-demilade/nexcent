@@ -28,12 +28,12 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Service", path: "service" },
-    { link: "About", path: "about" },
-    { link: "Product", path: "product" },
-    { link: "Testimonial", path: "testimonial" },
-    { link: "FAQ", path: "paq" },
+    { link: "Home", path: "/" },
+    { link: "Service", path: "#services" },
+    { link: "About", path: "#about" },
+    { link: "Product", path: "#products" },
+    { link: "Testimonial", path: "#blog" },
+    { link: "FAQ", path: "#faq" },
   ];
 
   return (
@@ -60,16 +60,13 @@ const Navbar = () => {
 
           <ul className="md:flex space-x-12 hidden">
             {navItems.map(({ link, path }) => (
-              <Link
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-100}
+              <a
+                href={path}
                 key={path}
                 className="block text-base text-gray900 hover:text-brandPrimary first:font-medium"
               >
                 {link}
-              </Link>
+              </a>
             ))}
           </ul>
 

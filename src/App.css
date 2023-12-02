@@ -7,3 +7,7 @@ body {
 header {
   z-index: 1001 !important;
 }
+
+.footer-bg {
+  background-color: #263238 !important;
+}

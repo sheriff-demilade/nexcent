@@ -6,7 +6,7 @@ import stats4 from "..//assets/stats4.png";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       {/* about text */}
       <div className=" px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
         <div
@@ -14,7 +14,7 @@ const About = () => {
          gap-12"
         >
           <div>
-            <img src={aboutImage} alt="" />
+            <img src={aboutImage} alt="" className="w-80" />
           </div>
           <div className=" md:w-3/5 mx-auto">
             <h2 className=" text-4xl text-neutralDGray font-semibold mb-4 md:w-4/5 ">

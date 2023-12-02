@@ -34,7 +34,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
+    <div id="services" className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
       <div className="text-center my-8">
         <h2 className=" text-4xl text-neutralDGray font-semibold mb-2">
           Our Clients
@@ -42,14 +42,14 @@ const Services = () => {
         <p className=" text-neutralGray">
           We have been working with some Fortune 500+ clients
         </p>
-        <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img src={company1} alt="company" />
-          <img src={company2} alt="company" />
-          <img src={company3} alt="company" />
-          <img src={company4} alt="company" />
-          <img src={company5} alt="company" />
-          <img src={company6} alt="company" />
-          <img src={company7} alt="company" />
+        <div className="my-12 flex flex-wrap justify-around items-center gap-8">
+          <img src={company1} alt="company" className="h-9 w-9" />
+          <img src={company2} alt="company" className="h-9 w-9" />
+          <img src={company3} alt="company" className="h-9 w-9" />
+          <img src={company4} alt="company" className="h-9 w-9" />
+          <img src={company5} alt="company" className="h-9 w-9" />
+          <img src={company6} alt="company" className="h-9 w-9" />
+          <img src={company7} alt="company" className="h-9 w-9" />
         </div>
       </div>
       {/* Service Card */}
