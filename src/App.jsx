@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Blog from "./components/Blog";
-import Footer from "./components/Footer";
+import MyFooter from "./components/MyFooter";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
@@ -18,7 +18,7 @@ function App() {
       <Products />
       <Blog />
       <Newsletter />
-      <Footer />
+      <MyFooter />
     </>
   );
 }
