@@ -1,7 +1,10 @@
 import logo from "../assets/logo.png";
 const Footer = () => {
   return (
-    <footer id="footer" className="bd-footer py-4 py-md-5 bg-body-tertiary footer-bg ">
+    <footer
+      id="footer"
+      className="bd-footer py-4 py-md-5 bg-body-tertiary footer-bg "
+    >
       <div className="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
         <div className="row">
           <div className="col-lg-3 mb-3 text-white">
